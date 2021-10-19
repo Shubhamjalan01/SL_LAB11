@@ -1,0 +1,13 @@
+.footer1{
+  font-size: 18px;
+  margin-top: 30px;
+  background-color: #FFFFE5;
+  color: black;
+}
+.footer1 .footer-center{
+  vertical-align: top;
+  text-align: center;
+  display: inline-block;
+  padding: 5px;
+  width: 100%;
+}

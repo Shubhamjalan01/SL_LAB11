@@ -1,0 +1,46 @@
+.center {
+  border-radius: 5px;
+  background-color: #ffffff;
+  padding: 20px;
+  margin: auto;
+  width: 30%;
+  display: block;
+  box-shadow: 5px 10px #888888;
+  margin-top: 80px;
+  }
+  input[type=text] {
+    font-Size: 20px;
+    font-family: Courier;
+    width: 80%;
+    padding: 12px 20px;
+    margin-top: auto;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    font-weight: bold;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+  }
+
+  input[type=text]:focus {
+    border: 3px solid #66b39c;
+  }
+  input[type="button"]
+  {
+  font-family: Verdana;
+  font-size: xx-large;
+  background-color:#34B1A4;
+  padding: 0px;
+  color: black;
+  border: none;
+  color: white;
+  display:inline-block;
+  margin-left: 15px;
+  border-radius: 50px;
+  height: 55px;
+  width: 55px;
+  cursor: pointer;
+  }
+  input[type=button]:hover {
+  background-color: #428079;
+  }

@@ -1,0 +1,22 @@
+.list {
+  border-radius: 5px;
+  background-color: #ffffff;
+  padding: 1px;
+  margin: auto;
+  width: 32.8%;
+  box-shadow: 5px 10px #888888;
+  margin-top: 10px;
+  }
+p {
+  font-Size: 20px;
+  display: inline-block;
+  font-family: Courier;
+}
+.button {
+  background-color: #ffffff;
+  color: rgb(255, 118, 118);
+  border: none;
+  cursor: pointer;
+  font-size: large;
+  padding: 18px;
+}
