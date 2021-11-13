@@ -3,11 +3,21 @@
   background-color: #ffffff;
   padding: 20px;
   margin: auto;
-  width: 60%;
+  width: 30%;
   display: block;
   box-shadow: 5px 10px #888888;
   margin-top: 80px;
   }
+  .top {
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 20px;
+    margin: auto;
+    width: 30%;
+    display: block;
+    box-shadow: 5px 10px #888888;
+    margin-top: 10px;
+    }
   input[type=text] {
     font-Size: 20px;
     font-family: Courier;
@@ -43,4 +53,18 @@
   }
   input[type=button]:hover {
   background-color: #428079;
+  }
+  .button {
+    width: 40%;
+    background-color: #34B1A4;
+    color: white;
+    padding: 10px 15px;
+    margin: 4px 0;
+    margin-left: 27px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .button:hover {
+    background-color: #428079;
   }

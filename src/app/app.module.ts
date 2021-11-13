@@ -8,6 +8,10 @@ import { TodoHeaderComponent } from './todo/todo-header/todo-header.component';
 import { TodoInputComponent } from './todo/todo-input/todo-input.component';
 import { TodoListComponent } from './todo/todo-list/todo-list.component';
 import { TodoFooterComponent } from './todo/todo-footer/todo-footer.component';
+import { TodoDetailsComponent } from './todo/todo-details/todo-details.component';
+import { TodolistComponent } from './todo/todolist/todolist.component';
+import { SpaceXComponent } from './space-x/space-x.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -17,10 +21,14 @@ import { TodoFooterComponent } from './todo/todo-footer/todo-footer.component';
     TodoInputComponent,
     TodoListComponent,
     TodoFooterComponent,
+    TodoDetailsComponent,
+    TodolistComponent,
+    SpaceXComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

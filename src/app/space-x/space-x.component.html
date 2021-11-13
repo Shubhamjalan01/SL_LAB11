@@ -1,0 +1,19 @@
+<h2>SpaceX data fetched from api</h2>
+<div class="tab">
+<table>
+  <tr>
+    <th><b>Misson Name</b></th>
+    <th><b>Mission Id</b></th>
+    <th><b>Manufacturers</b></th>
+    <th><b>Wikipedia</b></th>
+    <th><b>Website</b></th>
+  </tr>
+  <tr *ngFor="let item of data">
+    <td>{{item.mission_name}}</td>
+    <td>{{item.mission_id}}</td>
+    <td>{{item.manufacturers}}</td>
+    <td>{{item.wikipedia}}</td>
+    <td>{{item.website}}</td>
+  </tr>
+</table>
+</div>

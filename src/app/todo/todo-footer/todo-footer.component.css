@@ -1,31 +1,13 @@
-.tab {
-  border-radius: 5px;
-  background-color: #ffffff;
-  padding: 1px;
-  margin: auto;
-  width: 66%;
-  box-shadow: 5px 10px #888888;
-  margin-top: 80px;
-  }
-  p {
-    font-Size: 20px;
-    display: inline-block;
-    font-family: Courier;
-  }
-table {
-  border-collapse: collapse;
+.footer1{
+  font-size: 18px;
+  margin-top: 30px;
+  background-color: #FFFFE5;
+  color: black;
+}
+.footer1 .footer-center{
+  vertical-align: top;
+  text-align: center;
+  display: inline-block;
+  padding: 5px;
   width: 100%;
-  }
-
-th, td {
-  width: 100%;
-  text-align: left;
-  padding: 5px 45px;
-  }
-
-tr:nth-child(odd){background-color: #f2f2f2}
-
-th {
-  background-color: #66c9ab;
-  color: rgb(29, 29, 29);
-  }
+}
